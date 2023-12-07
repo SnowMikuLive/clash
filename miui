@@ -1,5 +1,5 @@
 # MIUI 安装检查
-127.0.0.1 api.installer.xiaomi.com
+DOMAIN-SUFFIX,api.installer.xiaomi.com,Reject
 
 #OneTrack & Analytics & Ad
 127.0.0.1 tracking.miui.com
