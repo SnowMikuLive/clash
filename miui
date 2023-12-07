@@ -2,112 +2,112 @@
 DOMAIN-SUFFIX,api.installer.xiaomi.com,Reject
 
 #OneTrack & Analytics & Ad
-DOMAIN-SUFFIX,tracking.miui.com
-DOMAIN-SUFFIX,data.mistat.xiaomi.com
-DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com
-DOMAIN-SUFFIX,log.ad.xiaomi.com
-DOMAIN-SUFFIX,m.track.ad.xiaomi.com
-DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
+DOMAIN-SUFFIX,tracking.miui.com,Reject
+DOMAIN-SUFFIX,data.mistat.xiaomi.com,Reject
+DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com,Reject
+DOMAIN-SUFFIX,log.ad.xiaomi.com,Reject
+DOMAIN-SUFFIX,m.track.ad.xiaomi.com,Reject
+DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com,Reject
 
 # 小爱同学
-DOMAIN-SUFFIX,tracker.ai.xiaomi.com
+DOMAIN-SUFFIX,tracker.ai.xiaomi.com,Reject
 
 # 好像是小米自己的引擎 还在内测
-DOMAIN-SUFFIX,mazu.sec.miui.com
+DOMAIN-SUFFIX,mazu.sec.miui.com,Reject
 
 # avl
-DOMAIN-SUFFIX,miui-fxcse.avlyun.com
-DOMAIN-SUFFIX,sdkconf.avlyun.com
-DOMAIN-SUFFIX,sdkconf.avlyun.com
-DOMAIN-SUFFIX,miav-cse.avlyun.com
-DOMAIN-SUFFIX,update.avlyun.sec.miui.com
-DOMAIN-SUFFIX,ixav-cse.avlyun.com
-DOMAIN-SUFFIX,logupdate.avlyun.sec.miui.com
+DOMAIN-SUFFIX,miui-fxcse.avlyun.com,Reject
+DOMAIN-SUFFIX,sdkconf.avlyun.com,Reject
+DOMAIN-SUFFIX,sdkconf.avlyun.com,Reject
+DOMAIN-SUFFIX,miav-cse.avlyun.com,Reject
+DOMAIN-SUFFIX,update.avlyun.sec.miui.com,Reject
+DOMAIN-SUFFIX,ixav-cse.avlyun.com,Reject
+DOMAIN-SUFFIX,logupdate.avlyun.sec.miui.com,Reject
 
 # 流量更新、病毒白名单
-DOMAIN-SUFFIX,api.sec.miui.com
+DOMAIN-SUFFIX,api.sec.miui.com,Reject
 
 #权限云控 好像只针对部分机型？
-DOMAIN-SUFFIX,auth.be.sec.miui.com
+DOMAIN-SUFFIX,auth.be.sec.miui.com,Reject
 
 #反诈
-DOMAIN-SUFFIX,flash.sec.miui.com
+DOMAIN-SUFFIX,flash.sec.miui.com,Reject
 
 #快应用
-DOMAIN-SUFFIX,api.hybrid.xiaomi.com
+DOMAIN-SUFFIX,api.hybrid.xiaomi.com,Reject
 
 #浏览器 热点下滑等
-DOMAIN-SUFFIX,o2o.api.xiaomi.com
-DOMAIN-SUFFIX,api.browser.miui.com
-DOMAIN-SUFFIX,ssl-cdn.static.browser.mi-img.com
-DOMAIN-SUFFIX,security.browser.miui.com
-DOMAIN-SUFFIX,hot.browser.miui.com
-DOMAIN-SUFFIX,r.browser.miui.com
-DOMAIN-SUFFIX,hd.browser.miui.com
-DOMAIN-SUFFIX,c3-cache.browser.miui.com
-DOMAIN-SUFFIX,api-ipv4.browser.miui.com
+DOMAIN-SUFFIX,o2o.api.xiaomi.com,Reject
+DOMAIN-SUFFIX,api.browser.miui.com,Reject
+DOMAIN-SUFFIX,ssl-cdn.static.browser.mi-img.com,Reject
+DOMAIN-SUFFIX,security.browser.miui.com,Reject
+DOMAIN-SUFFIX,hot.browser.miui.com,Reject
+DOMAIN-SUFFIX,r.browser.miui.com,Reject
+DOMAIN-SUFFIX,hd.browser.miui.com,Reject
+DOMAIN-SUFFIX,c3-cache.browser.miui.com,Reject
+DOMAIN-SUFFIX,api-ipv4.browser.miui.com,Reject
 
 # 系统应用检查更新 e.g 下载管理
-DOMAIN-SUFFIX,api.developer.xiaomi.com
+DOMAIN-SUFFIX,api.developer.xiaomi.com,Reject
 
 
 #??? 云控?
-DOMAIN-SUFFIX,qsb.browser.miui.srv
-DOMAIN-SUFFIX,rom.pt.miui.srv
-DOMAIN-SUFFIX,ccc.sys.miui.com
-DOMAIN-SUFFIX,jupiter.sys.miui.com
-DOMAIN-SUFFIX,metok.sys.miui.com
+DOMAIN-SUFFIX,qsb.browser.miui.srv,Reject
+DOMAIN-SUFFIX,rom.pt.miui.srv,Reject
+DOMAIN-SUFFIX,ccc.sys.miui.com,Reject
+DOMAIN-SUFFIX,jupiter.sys.miui.com,Reject
+DOMAIN-SUFFIX,metok.sys.miui.com,Reject
 
 # 其他系统应用的垃圾sdk
 # qq扫描 bugly 阅读 快应用等api
 # 可能会影响部分功能 
-DOMAIN-SUFFIX,tmfsdk.m.qq.com
-DOMAIN-SUFFIX,tmfsdk4.m.qq.com
-DOMAIN-SUFFIX,tbm.snssdk.com
-DOMAIN-SUFFIX,othstr.beacon.qq.com
-DOMAIN-SUFFIX,tools.3g.qq.com
-DOMAIN-SUFFIX,tmfsdktcp.m.qq.com
-DOMAIN-SUFFIX,h.trace.qq.com
-DOMAIN-SUFFIX,hub5pn.wap.sandai.net
-DOMAIN-SUFFIX,tpstelemetry.tencent.com
-DOMAIN-SUFFIX,pssn.alicdn.com
-DOMAIN-SUFFIX,tmfsdktcpv4.m.qq.com
-DOMAIN-SUFFIX,tmeadcomm.y.qq.com
-DOMAIN-SUFFIX,tangram.e.qq.com
-DOMAIN-SUFFIX,us.l.qq.com
-DOMAIN-SUFFIX,tdid.m.qq.com
-DOMAIN-SUFFIX,h.trace.qq.com
-DOMAIN-SUFFIX,api.yky.qq.com
-DOMAIN-SUFFIX,sdk.e.qq.com
-DOMAIN-SUFFIX,android.bugly.qq.com
-DOMAIN-SUFFIX,toblog.ctobsnssdk.com
-DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com
-DOMAIN-SUFFIX,cfg.imtt.qq.com
-DOMAIN-SUFFIX,statres.quickapp.cn
-DOMAIN-SUFFIX,qr.quickapp.cn
-DOMAIN-SUFFIX,hybrid.xiaomi.com
-DOMAIN-SUFFIX,hybrid.miui.com
-127.0.0.1 s1.irs03.com
-127.0.0.1 up.cm.ksmobile.com
-127.0.0.1 dl.cm.ksmobile.com
-127.0.0.1 dw-online.ksosoft.com
-127.0.0.1 zzhc.vnet.cn
-127.0.0.1 beacon-api.aliyuncs.com
-127.0.0.1 mpush-api.aliyun.com
-127.0.0.1 ug.snssdk.com
-127.0.0.1 t7z.cupid.iqiyi.com
-127.0.0.1 worldwide.sogou.com
-127.0.0.1 www.pangolin-dsp-toutiao.com
-127.0.0.1 master.wap.dphub.sandai.net
-127.0.0.1 hub5u.wap.sandai.net
-127.0.0.1 idx.m.hub.sandai.net
-127.0.0.1 tw13b093.sandai.net
-127.0.0.1 adinfo.ra1.xlmc.sec.miui.com
-127.0.0.1 test.ad.xiaomi.com
-127.0.0.1 uploadlog.xlmc.sandai.net
-127.0.0.1 t03-api.xlmc.xunlei.com
-127.0.0.1 pre.api.tw06.xlmc.sandai.net
-127.0.0.1 guid-xldw-ssl.n0808.com
+DOMAIN-SUFFIX,tmfsdk.m.qq.com,Reject
+DOMAIN-SUFFIX,tmfsdk4.m.qq.com,Reject
+DOMAIN-SUFFIX,tbm.snssdk.com,Reject
+DOMAIN-SUFFIX,othstr.beacon.qq.com,Reject
+DOMAIN-SUFFIX,tools.3g.qq.com,Reject
+DOMAIN-SUFFIX,tmfsdktcp.m.qq.com,Reject
+DOMAIN-SUFFIX,h.trace.qq.com,Reject
+DOMAIN-SUFFIX,hub5pn.wap.sandai.net,Reject
+DOMAIN-SUFFIX,tpstelemetry.tencent.com,Reject
+DOMAIN-SUFFIX,pssn.alicdn.com,Reject
+DOMAIN-SUFFIX,tmfsdktcpv4.m.qq.com,Reject
+DOMAIN-SUFFIX,tmeadcomm.y.qq.com,Reject
+DOMAIN-SUFFIX,tangram.e.qq.com,Reject
+DOMAIN-SUFFIX,us.l.qq.com,Reject
+DOMAIN-SUFFIX,tdid.m.qq.com,Reject
+DOMAIN-SUFFIX,h.trace.qq.com,Reject
+DOMAIN-SUFFIX,api.yky.qq.com,Reject
+DOMAIN-SUFFIX,sdk.e.qq.com,Reject
+DOMAIN-SUFFIX,android.bugly.qq.com,Reject
+DOMAIN-SUFFIX,toblog.ctobsnssdk.com,Reject
+DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,Reject
+DOMAIN-SUFFIX,cfg.imtt.qq.com,Reject
+DOMAIN-SUFFIX,statres.quickapp.cn,Reject
+DOMAIN-SUFFIX,qr.quickapp.cn,Reject
+DOMAIN-SUFFIX,hybrid.xiaomi.com,Reject
+DOMAIN-SUFFIX,hybrid.miui.com,Reject
+DOMAIN-SUFFIX,s1.irs03.com,Reject
+DOMAIN-SUFFIX,up.cm.ksmobile.com,Reject
+DOMAIN-SUFFIX,dl.cm.ksmobile.com,Reject
+DOMAIN-SUFFIX,dw-online.ksosoft.com,Reject
+DOMAIN-SUFFIX,zzhc.vnet.cn,Reject
+DOMAIN-SUFFIX,beacon-api.aliyuncs.com,Reject
+DOMAIN-SUFFIX,mpush-api.aliyun.com,Reject
+DOMAIN-SUFFIX,ug.snssdk.com,Reject
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com,Reject
+DOMAIN-SUFFIX,worldwide.sogou.com,Reject
+DOMAIN-SUFFIX,www.pangolin-dsp-toutiao.com,Reject
+DOMAIN-SUFFIX,master.wap.dphub.sandai.net,Reject
+DOMAIN-SUFFIX,hub5u.wap.sandai.net,Reject
+DOMAIN-SUFFIX,idx.m.hub.sandai.net,Reject
+DOMAIN-SUFFIX,tw13b093.sandai.net,Reject
+DOMAIN-SUFFIX,adinfo.ra1.xlmc.sec.miui.com,Reject
+DOMAIN-SUFFIX,test.ad.xiaomi.com,Reject
+DOMAIN-SUFFIX,uploadlog.xlmc.sandai.net,Reject
+DOMAIN-SUFFIX,t03-api.xlmc.xunlei.com,Reject
+DOMAIN-SUFFIX,pre.api.tw06.xlmc.sandai.net,Reject
+DOMAIN-SUFFIX,guid-xldw-ssl.n0808.com,Reject
 
 # unknown
-127.0.0.1 data.sec.miui.com
+DOMAIN-SUFFIX,data.sec.miui.com,Reject
